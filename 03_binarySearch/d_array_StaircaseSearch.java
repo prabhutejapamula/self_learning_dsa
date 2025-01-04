@@ -19,7 +19,7 @@ public class d_array_StaircaseSearch {
         while(currentRow < rowCount && currentColumn >= 0){
             if(arr[currentRow][currentColumn] == target){
                 return new int[]{currentRow, currentColumn};
-            }
+            }   
             if(arr[currentRow][currentColumn] < target){
                 currentRow++;                  
             } else {
